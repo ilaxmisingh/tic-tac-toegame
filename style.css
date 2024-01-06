@@ -1,16 +1,22 @@
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
-    background-color: coral;
+    background-color: rgb(211, 80, 80);
+    align-items: center;
 }
 
 .board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-gap: 5px;
-    margin: 20px auto;
-    background-color:aliceblue ;
+margin: 100px 100px;
+    background-color:rgb(3, 26, 46) ;
+    align-items: center;
+    padding: 50px 50px;
+    padding-left: 450px;
+    
 }
+
 
 .cell {
     width: 100px;
@@ -21,6 +27,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #ccc;
+
 }
 
 .cell:hover {
@@ -30,5 +38,7 @@ body {
 .message {
     margin-top: 20px;
     font-size: 18px;
-    color: green;
+    color: rgb(15, 243, 15);
+    background: rgb(21, 138, 41);
+    border-radius: 3mm;
 }
